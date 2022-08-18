@@ -1,4 +1,4 @@
-module github.com/hellokvn/go-gin-api-medium
+module github.com/aldotobing/go-gin-api-with-postgress
 
 go 1.18
 

@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/aldotobing/go-gin-api-with-postgres/pkg/books"
+	"github.com/aldotobing/go-gin-api-with-postgres/pkg/common/db"
 	"github.com/gin-gonic/gin"
-	"github.com/hellokvn/go-gin-api-medium/pkg/books"
-	"github.com/hellokvn/go-gin-api-medium/pkg/common/db"
 	"github.com/spf13/viper"
 )
 
