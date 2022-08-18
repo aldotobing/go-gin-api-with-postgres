@@ -3,8 +3,8 @@ package books
 import (
 	"net/http"
 
+	"github.com/aldotobing/go-gin-api-with-postgres/pkg/common/models"
 	"github.com/gin-gonic/gin"
-	"github.com/hellokvn/go-gin-api-medium/pkg/common/models"
 )
 
 type UpdateBookRequestBody struct {
