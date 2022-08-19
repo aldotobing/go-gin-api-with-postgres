@@ -13,7 +13,7 @@ type AddBookRequestBody struct {
 	Description string `json:"description"`
 }
 
-func (h handler) AddBook(c *gin.Context) {
+func (h *handler) AddBook(c *gin.Context) {
 	body := AddBookRequestBody{}
 
 	// getting request's body

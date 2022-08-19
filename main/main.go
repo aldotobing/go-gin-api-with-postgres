@@ -20,5 +20,12 @@ func main() {
 	books.RegisterRoutes(r, h)
 	// register more routes here
 
+	// r.GET("/books", func(c *gin.Context) {
+	// 	c.JSON(http.StatusOK, gin.H{
+	// 		"name": "Aldo",
+	// 		"bio":  "A Software Engineer",
+	// 	})
+	// })
+
 	r.Run(port)
 }
